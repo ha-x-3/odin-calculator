@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+
+footer {
+  padding-top: 20px;
+  font-size: 0.90em;
+}
+
+.calculator {
+  height: 80vh;
+  width: 40vw;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: gray;
+  gap: 5px;
+}
+
+.screen {
+  height: 20vh;
+  width: 35vw;
+  background-color: lightgray;
+  border-radius: 8px;
+  border: 3px solid rgba(96, 95, 95, 0.879);
+}
+
+.buttons {
+  border: 3px solid rgba(96, 95, 95, 0.879);
+  width: 35vw;
+  height: calc(80vh - 50px);
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.button {
+  height: 10vh;
+  border-radius: 8px;
+  font-size: 2rem;
+}
+
+#equalsBtn {
+  width: calc(35vw * 0.462)
+}
+
+#clearBtn {
+  border-radius: 50%;
+  background-color: rgb(195, 80, 80);
+}
+
+#backspaceBtn {
+  background-color: rgb(224, 180, 96);
+}
+
+.operator {
+  background-color: rgb(224, 224, 168);
+}
+
+.number {
+  background-color: rgb(174, 197, 222);
+}
+
+#equalsBtn {
+  background-color: rgba(123, 197, 123, 0.772);
+}
+  
