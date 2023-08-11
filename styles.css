@@ -22,7 +22,7 @@ footer {
 
 .calculator {
   height: 75vh;
-  width: 40vw;
+  width: 42vw;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@ footer {
 
 .screen {
   height: 20vh;
-  width: 35vw;
+  width: 37vw;
   background-color: lightgray;
   border-radius: 8px;
   border: 3px solid rgba(96, 95, 95, 0.879);
@@ -49,6 +49,9 @@ footer {
   padding-right: 10px;
   font-family: 'LCD Solid', sans-serif;
   color: rgb(44, 42, 42);
+  font-size: 3.75rem;
+  max-width: 35vw;
+  text-align: right;
 }
 
 .buttons {
@@ -92,4 +95,7 @@ footer {
 #equalsBtn {
   background-color: rgba(123, 197, 123, 0.772);
 }
-  
+
+.is-depressed {
+  filter: invert(100%);
+}
