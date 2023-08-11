@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   font-family: Helvetica, sans-serif;
   background-image: url(img/background.png);
@@ -10,7 +10,7 @@ body {
 header {
   font-size: 4.75em;
   font-family: "Math Time!", sans-serif;
-  margin: 0;
+  margin: 10px;
   color: rgb(44, 42, 42);
 }
 
