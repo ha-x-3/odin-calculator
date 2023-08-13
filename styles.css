@@ -51,7 +51,9 @@ footer {
   color: rgb(44, 42, 42);
   font-size: 3.75rem;
   max-width: 35vw;
+  max-height: 18vh;
   text-align: right;
+  overflow: auto;
 }
 
 .buttons {

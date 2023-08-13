@@ -139,17 +139,3 @@ const updateVisualState = (key, calculator) => {
     clearButton.textContent = 'CE';
   }
 };
-
-
-// TODO
-// Limit display line length
- 
-// function Display(displayedNum) {
-//   document.getElementById("displayLine").innerHTML += displayedNum;
-//   let maximum = 14;
-//   let calc = document.getElementById("displayLine").innerHTML;
-//   if (calc.length > maximum) {
-//     let length = calc.substring(0, 14);
-//     document.getElementById("displayLine").innerHTML = length;
-//   }
-// }
