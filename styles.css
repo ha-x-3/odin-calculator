@@ -20,6 +20,10 @@ footer {
   text-align: center;
 }
 
+button {
+  color: black;
+}
+
 .calculator {
   height: 75vh;
   width: 42vw;
