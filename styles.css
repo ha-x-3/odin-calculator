@@ -65,6 +65,7 @@ footer {
   gap: 10px;
   justify-content: center;
   padding: 10px;
+  color: black;
 }
 
 .buttons > button {
