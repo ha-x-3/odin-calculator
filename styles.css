@@ -111,6 +111,7 @@ button {
 @media (max-width: 767px) {
   header {
     font-size: 3em;
+    text-align: center;
   }
 
   .calculator {
