@@ -9,7 +9,7 @@ body {
 
 header {
   font-size: 4.75em;
-  font-family: "Math Time!", sans-serif;
+  font-family: "Math Time!", "Schoolbell", cursive, sans-serif;
   margin: 10px;
   color: rgb(44, 42, 42);
 }
@@ -51,7 +51,7 @@ button {
 
 .displayLine {
   padding-right: 10px;
-  font-family: 'LCD Solid', sans-serif;
+  font-family: 'LCD Solid', 'Press Start 2P', monospace;
   color: rgb(44, 42, 42);
   font-size: 3.75rem;
   max-width: 35vw;
